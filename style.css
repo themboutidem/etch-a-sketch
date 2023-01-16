@@ -1,0 +1,52 @@
+body
+{
+    height: 100vh;
+    background-color: #c8d5b9;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etch 
+{
+    box-sizing: border-box;
+    width: 70vw;
+    height: 70vw;
+    border: 40px solid #f95738;
+    display: flex;
+    flex-direction: horizontal;
+}
+
+#grid-container 
+{
+    display: grid;
+    background-color: white;
+    width: 100vw;
+}
+
+
+.side-bar
+{
+    background-color: #f95738;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    min-width: 190px;
+    gap: 25px;
+}
+
+.buttons{
+    display:flex;
+    gap: 5px;
+    padding-bottom: 30px;
+}
+
+button {
+    padding: 10px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: rgb(225, 215, 215);
+}
